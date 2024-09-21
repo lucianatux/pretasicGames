@@ -28,3 +28,9 @@ header{
     width: 300px;
     padding: 10px;
 }
+.game img{
+    width: 100%;
+}
+.game p{
+    padding: 10px;
+}
