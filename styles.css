@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
 body{
     /*background: radial-gradient( #131313, #805599, #d8af69);*/
-    background: #131313;
+    background: linear-gradient(#805599,#8f7b9b, #805599);
     color: #d3d3d3;
     align-items: center;
     text-align: center;
@@ -10,7 +13,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
+    color: #d59d3d;
+    font-family: "Playwrite DE Grund", cursive;
+    /*font-family: "Gowun Batang", serif;**/
+    font-weight: 400;
+    /*background: linear-gradient( #d3a453, #844db4);*/
+}
+header img{
+    height: 50px;
+    padding: 0px 10px;
 }
 .info{
     height: 40vh;
@@ -27,7 +39,7 @@ header{
 }
 .game{
     margin: 50px;
-    padding: 10px;
+    padding: 20px;
     background: #222;
     border-radius: 5px;
     display: flex;
@@ -42,6 +54,26 @@ header{
 }
 .game p{
     padding: 10px;
+}
+form{
+    /*background: radial-gradient( #d8af69, #805599);*/
+    background: #d3d3d355;
+    border-radius: 5px;
+    color: #131313;
+    font-weight: 500;
+}
+.form-control{
+    background: #d3d3d3;
+}
+.areas-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background: #131313;
+    color: #d3d3d3;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 @media (max-width:768px){
